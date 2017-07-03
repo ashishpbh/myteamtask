@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="myscript.js"></script>
+</head>
+<body onload="lstorage()">
+
+
+<div class="container-fluid">
+<div class="panel panel-warning">
+      <div class="panel-heading">welcome&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope" >
+	  <p id="printuseremail"></p></span><p id="printusersmail"></p><p style="text-align:right;" ><a href="signinsignup.html" class="btn btn-default btn-md">
+    <span class="glyphicon glyphicon-off"></span>logout 
+  </a></p>
+	 
+	  </div>
+      <div class="panel-body">
+<div class="row"><!--row start here-->
+
+<div class="col-md-6" ><!--first column start here-->
+<div class="panel panel-info">
+      
+<div class="panel-body" >
+	  
+<div class="panel panel-danger">
+  <div class="panel-heading" > for your chosen language and mode links click on search</div>
+   <div class="panel-body" >
+	  
+    <button type="button" class="btn btn-block" onclick="onclicklinks()" id="searchbtn"><span class="label label-primary" id="demo">Primary Label</span>
+       <span class="label label-success" id="mode" >Success Label</span>
+         <span class="label label-info"><span class="glyphicon glyphicon-search"></span>Search</span>
+    </button>  
+</div>
+</div>
+
+<div class="panel-group">
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse1">feedback section ( to improve rating...)</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body"><form>
+	  
+	  
+    <div class="form-group">
+      <label for="sel1"><b>Select Your mode: </b></label>
+      <select class="form-control" id="sel1">
+	  <option>---SELECT YOUR MODE--- </option>
+        <option>VIDEO</option>
+        <option>BLOGS</option>
+        <option>EBOOKS</option>
+        
+      </select></div>
+ 
+ <div class="form-group">
+      <label for="sel1">Select Your language: </label>
+      <select class="form-control" id="sel1">
+	  <option>--------- </option>
+        <option>HTML</option>
+		
+        <option>CSS</option>
+        <option>PHP</option>
+        
+      </select>
+</div>
+   
+
+ <div class="form-group">
+      <label for="sel1">Select Your website to give rating: </label>
+      <select class="form-control" id="sel1">
+	  <option>---WWW.www--- </option>
+        <option>w3school</option>
+        <option>bookcakeblogs</option>
+        <option>hubspotblogs</option>
+        <option>others...</option>
+      </select></div>
+	  
+	  
+	  <label class="radio-inline">
+      <input type="radio" name="optradio">5
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">4
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">3
+    </label>
+	<label class="radio-inline">
+      <input type="radio" name="optradio">2
+    </label>
+  <label class="radio-inline">
+      <input type="radio" name="optradio">1
+    </label>
+  
+  
+      &nbsp;  &nbsp;<input type="submit" class="btn btn-primary" value="submit">
+	  </form></div>
+      <div class="panel-footer">
+	           </div>
+    </div>
+  </div>
+</div>
+
+  
+</div><!--pannel body end here-->
+
+</div><!--pannel end here-->
+	
+</div><!--1st column end here-->
+<div class="col-md-6">
+	
+	   <div class="panel panel-info" >
+             <div class="panel-heading">your selected links are </div>
+             <div class="panel-body" ><p id="linksshownhere">links will be shown here </p></div>
+       </div>
+</div>
+  </div><!--row end here-->
+  
+  
+  </div><!--pannel body end here-->
+   <div class="panel-footer"><p><span class="glyphicon glyphicon-map-marker"></span> &nbsp;&nbsp;UP,INDIA</p>
+      <p><span class="glyphicon glyphicon-phone"></span>&nbsp;Phone: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;Email: internityintern@mail.com</p> 
+    </div>
+    </div><!--pannel end here-->
+
+</div><!--containner end here-->
+
+</body>
+
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="myscript.js"></script>
+</head>
+<body onload="printuseremail()">
+<div class="container-fluid">
+
+<div class="row"><!--row start here-->
+<div class="panel panel-danger">
+      <div class="panel-heading"><h4>please choose a language and studymode</h4>
+	  <p id="printuseremail"></p> <p id="printuseresmail"></p>
+	  
+	  </div>
+	  
+<div class="panel-body">
+
+<div class="well"><h4>Select your Language:-</h4>
+<form action="thirdpage.html"  name="myForm" method="POST" onsubmit="return validateForm()">
+     <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>&nbsp;
+   
+ 	<input type="radio" name="language" id="l1" value="html" checked>html
+	</div><br>
+	<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>&nbsp;
+ 
+	<input type="radio" name="language" value="css">css
+	</div><br>
+	<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>&nbsp;
+ 
+	<input type="radio" name="language" value="php">php
+	</div><br>
+	
+</div>
+
+ <div class="well well-sm"><h4>
+   	Select your mode of study:-</h4>
+    <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-file"></i></span>&nbsp;
+ 
+	<input type="radio" name="mode" value="blogs"  checked>blogs
+	</div>
+	<br>
+	<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-facetime-video"></i></span>&nbsp;
+ 
+   	<input type="radio" name="mode" value="video">videos
+	</div>
+	<br>
+	<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>&nbsp;
+ 
+	<input type="radio" name="mode" value="ebook">e-book
+	</div>
+	<br>
+</div>
+	
+	 <div class="input-group" >
+	    <h4> <input type="submit" class="btn btn-primary" value="submit">
+        </h4>
+	  </div>
+
+</form><!--form end here-->
+</div><!--pannel body here-->
+
+</div><!--pannel end here-->
+</div><!--row end here-->
+
+
+</div><!--container end here-->
+<script>
+
+</script>
+
+</body>
+</html>

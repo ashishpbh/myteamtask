@@ -1,0 +1,43 @@
+#pb1{
+	
+	background-color:lavender;
+	text-align:center;
+	font-family:Times New Roman;
+	
+}
+
+.panel-heading,.panel-footer{
+	
+   text-align:center;
+	font-family:Times New Roman;
+	font-weight:bold;
+}
+#linksshownhere{
+	background-color:lavender;
+	text-align:left;
+	font-family: myFirstFont;
+	font-weight:bold;
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: default;
+    height: default; 
+	
+}
+#searchbtn:hover,#searchbtn:active{
+	
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+   
+}
+
+	
+	a:hover, a:active {
+		font-size: 150%;
+		}
+		a:visited {
+    color:#73AD21;
+}
+	
+	
+	
